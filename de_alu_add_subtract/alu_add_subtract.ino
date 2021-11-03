@@ -3,7 +3,7 @@
  * 
  * Using a shift register, the arduino generates 8 bits: 4 for the first operand and 4
  * for the second.  User enters the following syntax into the serial monitor: "a + b", "a - b".
- * The variables a and b must be 4-bit signed integers [-8, 7].  The expected output is
+ * The operands a and b must be 4-bit signed integers [-8, 7].  The expected output is
  * printed, and physical logic gates perform the operation with a 4-bit output.
  */
 
